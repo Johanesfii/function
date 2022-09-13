@@ -1,7 +1,7 @@
 import React from 'react';
-import '../style/kontenItem.css';
+import '../style/homeItem.css';
 
-export const KontenItem  = ({ title, description, url, urlToImage, }) => {
+export const HomeItem  = ({ title, description, url, urlToImage, }) => {
   return (
     <div className='news-app'>
         <div className='news-item'>

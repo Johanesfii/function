@@ -1,10 +1,10 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { KontenItem } from "./KontenItem";
+import { HomeItem } from "./HomeItem";
 import SearchPage from "./SearchPage";
 
-export default function Konten() {
+export default function Home() {
   const [articles, setArticles] = useState([]);
 
   const [search, setSearch] = useState('');
@@ -31,7 +31,7 @@ export default function Konten() {
              
         return (
              
-            <KontenItem
+            <HomeItem
               title={article.title}
               description={article.description}
               url={article.url}
